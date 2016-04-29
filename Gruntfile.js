@@ -121,12 +121,16 @@ module.exports = function(grunt) {
 					relative: true,
 					sections: {
 						layout: {
+							//common
 							head: '<%= src_html %>/head.html',
 							header: '<%= src_html %>/header.html',
 							foot: '<%= src_html %>/foot.html',
 							footer: '<%= src_html %>/footer.html',
-							footer_index: '<%= src_html %>/footer_index.html',
-							
+							// body index
+							accommodation: '<%= src_html %>/body-index/accommodation.html'
+			 				rates: '<%= src_html %>/body-index/our-rates.html'
+			 				services: '<%= src_html %>/body-index/our-services.html'
+			 				reviews: '<%= src_html %>/body-index/reviews.html'			
 						},
 						section: {
 							// slider_1: '<%= src_html %>/slider/slider.html',
