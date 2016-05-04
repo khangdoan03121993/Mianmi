@@ -1,0 +1,207 @@
+/************************HEADER*************************/
+
+//Header Top
+.header{
+	.size(100%, auto, none);
+	.padding(40px, 30px, none, none);
+}
+
+.header-top{
+	.padding(none, 45px, none, none);
+	border-bottom: 1px solid #dddddd;
+}
+
+.social-header p{
+	.p(16px, lato-regular, #878787);
+}
+
+.social-header ul {
+	.padding(0, 0, 0, 0);
+	.margin(0, 0, 0, 0);
+}
+
+.social-header ul li{
+	.float;
+	.margin(none, none, 0, 30px);
+}
+
+.social-header ul li a i{
+	font-size: 14.5px;
+	color: #888888;
+}
+
+.logo{
+	.margin(0, 0, auto, auto);
+	.size(100px, auto, none);
+}
+
+.logo p{
+	.margin(0, 0, 0, 0);
+}
+
+.logo p:nth-child(2){
+	.p(31.15px, playfair-display, black);
+}
+
+.logo p:nth-child(3){
+	.size(100%, 2px, #be0c0c);
+}
+
+.logo p:last-child{
+	.p(16px, rozha-one, black);
+	.text-align;
+}
+
+
+.money , .language{
+	.float;
+	.relative;
+	.size(60px, auto, none);
+}
+
+.money p, .language p{
+	.p(14.5px, lato-regular, #878787);
+}
+
+.money:hover .select-in, .language:hover .select-in{
+	display: block;
+	cursor: pointer;
+
+}
+.select-in ul {
+	.padding(25px,20px,0,0);
+	.margin(0,0,0,0);
+}
+
+.select-in{
+	.absolute;
+	display: none;
+
+}
+
+.select-in ul li{
+	.border-top(1px, solid, #878787);
+	.border-left(1px, solid, #878787);
+	.border-right(1px, solid, #878787);
+	.padding(5px, 5px, 5px, 5px);
+	background: white;
+	-webkit-transition: 0.35s;
+}
+
+.select-in ul li p{
+	.margin(0, 0, 0, 0);
+}
+
+.select-in ul li:hover{
+	cursor: pointer;
+	background: #8d9696;
+}
+
+.select-in ul li:last-child{
+	.border-bottom(1px, solid, #878787);
+}
+
+.select{
+	.padding(none, 20px, none, none);
+}
+
+.phone-header p{
+	.p(16px, lato-regular, #888888);
+}
+
+.cart p{
+	font-size: 16px;
+	color: #888888;
+	cursor: pointer;
+}
+
+.search{
+	.relative;
+}
+
+.search:hover .form-search{
+	display: block;
+}
+
+.form-search{
+	.absolute-right(absolute, 99, 0, 0);
+	.size(250px, auto, none);
+	.padding(20px, 20px, 0, 0);
+	display: none;
+}
+
+.form-search input{
+	.float;
+}
+
+//Header Mid
+
+.header-mid{
+	.margin(2px, none, none, none);
+	.border-top(1px, solid, #dddddd);
+	.padding(30px, none, none, none);
+}
+
+.header-mid ul{
+	.padding(0,0 ,0,0);
+	.text-align;
+}
+
+.header-mid ul li{
+	display: inline-block;
+	.margin(none, none, 0, 75px);
+	.relative;
+	cursor: pointer;
+}
+
+.header-mid ul li a{
+	.p(16px, rozha-one, black);
+}
+
+.header-mid ul li:hover > ul{
+	display: block;
+}
+
+
+.header-mid ul li > ul{
+	.absolute;
+	.padding(20px, 20px, none, none);
+	display: none;
+}
+
+.header-mid ul li > ul li{
+	.relative;
+	.border-top(1px, solid, black);
+	.border-left(1px, solid, black);
+	.border-right(1px, solid, black);
+	.size(100%, auto, white);
+	-webkit-transition: 0.35s;
+}
+
+.header-mid ul li > ul li:last-child{
+	.border-bottom(1px, solid, black);
+}
+
+.header-mid ul li > ul li:hover > ul{
+	display: block;
+}
+
+.header-mid ul li > ul li:hover{
+	background: black;	
+}
+
+.header-mid ul li > ul li:hover > a{
+
+	color: white;
+}
+
+.header-mid ul li > ul li > ul{
+	.padding(0, 0, 0,0);
+	.absolute(absolute, 99, 0, 100%);
+	display: none;
+}
+
+input:focus{
+	outline:none; 
+}
+

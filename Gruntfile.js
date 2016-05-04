@@ -99,7 +99,7 @@ module.exports = function(grunt) {
 					paths: ["less"]
 				},
 				files: {
-					"<%= dest_css %>/styles.css": "<%= src_less %>/styles.less"
+					"<%= dest_css %>/style.css": "<%= src_less %>/style.less"
 				}
 			},
 		},
@@ -126,11 +126,17 @@ module.exports = function(grunt) {
 							header: '<%= src_html %>/header.html',
 							foot: '<%= src_html %>/foot.html',
 							footer: '<%= src_html %>/footer.html',
-							// body index
-							accommodation: '<%= src_html %>/body-index/accommodation.html'
-			 				rates: '<%= src_html %>/body-index/our-rates.html'
-			 				services: '<%= src_html %>/body-index/our-services.html'
-			 				reviews: '<%= src_html %>/body-index/reviews.html'			
+
+							index:{
+								// body index
+								accommodation: '<%= src_html %>/body-index/accommodation.html',
+				 				rates: '<%= src_html %>/body-index/our-rates.html',
+				 				services: '<%= src_html %>/body-index/our-services.html',
+				 				reviews: '<%= src_html %>/body-index/reviews.html',
+				 				slider: '<%= src_html %>/body-index/slider.html',
+							}
+
+										
 						},
 						section: {
 							// slider_1: '<%= src_html %>/slider/slider.html',
