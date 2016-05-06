@@ -752,6 +752,84 @@ input:focus {
   padding-top: 10px;
 }
 /************************Rate Less*************************/
+.rate {
+  width: 100%;
+  height: auto;
+  background: url('../images/background-rate.png') no-repeat center;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  padding-left: none;
+  padding-right: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.rate p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+.rate h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-size: 36px;
+  font-family: rozha-one;
+  color: black;
+  padding-top: none;
+  padding-bottom: 50px;
+  padding-left: none;
+  padding-right: none;
+}
+.rate h1 span.line {
+  width: 80px;
+  height: 3px;
+  background: none;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rate {
+  width: 100%;
+  height: auto;
+  background: url('../images/background-rate.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.rate-mid p {
+  font-size: 55px;
+  font-family: rozha-one;
+  color: black;
+}
+.gallery-button {
+  width: 170px;
+  height: 40px;
+  background: #ee9b29;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery-button p {
+  text-align: center;
+}
+.gallery-button a {
+  font-size: 16px;
+  font-family: lato-bold;
+  color: white;
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: none;
+  padding-right: none;
+}
+.gallery-button a:hover {
+  color: white;
+}
 /************************Service Less*************************/
 .border {
   width: 100%;
@@ -769,6 +847,13 @@ input:focus {
   padding-left: none;
   padding-right: none;
 }
+.services p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
 .services h1 {
   margin-top: 0;
   margin-bottom: 0;
@@ -782,13 +867,6 @@ input:focus {
   padding-bottom: 50px;
   padding-left: none;
   padding-right: none;
-}
-.services-top p {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  text-align: center;
 }
 .services h1 span.line {
   width: 80px;
@@ -832,6 +910,7 @@ input:focus {
   padding-bottom: none;
   padding-left: 100px;
   padding-right: none;
+  text-align: left;
 }
 .services-in p {
   margin-top: none;
